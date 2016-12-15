@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Service
+Name=Gerber RS-274X & X2 CAM files
+X-KDE-ServiceTypes=ThumbCreator
+MimeType=application/x-gerber;application/x-excellon;application/vnd.gerber;
+X-KDE-Library=gerberthumbcreator
+CacheThumbnail=true
+IgnoreMaximumSize=true
+ThumbnailerVersion=2
