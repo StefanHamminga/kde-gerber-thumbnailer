@@ -1,6 +1,10 @@
 # Gerber Thumbnail Creator for KDE 5
 
-KDE thumbnail-plugin that generates small images (thumbnails) for Gerber files, to be displayed, for example, on Konqueror and Dolphin file managers.
+KDE thumbnail plugin that generates small images (thumbnails) for Gerber files, to be displayed, for example, in Konqueror and Dolphin file managers.
+
+Example result:
+
+![Thumbnails](screenshot.png)
 
 ## Dependencies
 
@@ -38,7 +42,7 @@ sudo make install
 
 ### Troubleshooting
 
-If you've built, installed, and enabled the plugin, but no previews show up you might need to see if the library is installed in the proper location. You could compare the install location to the pretty common JPEG thumbnailer:
+If you've built, installed, and enabled the plugin, but no previews show up you might need to check if the library is installed in the proper location. You could compare the install location to the pretty common JPEG thumbnailer:
 
 ```bash
 find /{usr,lib} -name "jpegthumbnail.so" -or -name "gerberthumbcreator.so" 2>/dev/null
